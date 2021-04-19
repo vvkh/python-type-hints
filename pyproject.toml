@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-type-hints"
+version = "0.1.0"
+description = ""
+authors = ["Valentin Khomutenko <valentine.khomutenko@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
